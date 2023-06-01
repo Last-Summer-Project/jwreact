@@ -744,7 +744,7 @@ progress {
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-.5 * var(--bs-gutter-x));
-  margin-left: calc(-.5 * var(--bs-gutter-x));
+  margin-left: 10rem;
 }
 
 .row>* {
@@ -10080,7 +10080,7 @@ fieldset:disabled .btn {
 }
 
 .py-4 {
-  padding-top: 1.5rem !important;
+  padding-top: 7rem !important;
   padding-bottom: 1.5rem !important;
 }
 
@@ -10230,6 +10230,7 @@ fieldset:disabled .btn {
 
 .pb-0 {
   padding-bottom: 0 !important;
+  margin-left: 5rem;
 }
 
 .pb-1 {
