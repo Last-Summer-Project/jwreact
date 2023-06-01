@@ -1,18 +1,17 @@
 import './App.css';
 import Good from './Good.png';
+import BlackCom from './BlackCom';
 
 function App() {
   return (
     <>
     <div style={{height: "4rem"}}></div>   
             <div className="left test1">
-              <button type="button" className="btn bg-gradient-dark w-100 my-4 mb-2 test1" style={{fontSize: 20}}>모 니 터 링</button>
+              <BlackCom name= "모 니 터 링"/>
             </div>
-        
-     
       
             <div className="right test1">
-              <button type="button" className="btn bg-gradient-dark w-100 my-4 mb-2 test1" style={{fontSize: 20}}>사 진</button>
+              <BlackCom name ="사 진"/>
             </div>
 
 

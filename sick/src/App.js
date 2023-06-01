@@ -87,12 +87,76 @@ function App() {
             </table>
           </div>
         </div>
+
+        <div id="parentDiv2" class="col-xl-3 col-sm-6 mb-xl-0 mb-4" style="margin-top:-920px ; margin-left: 700px; width: 400px; height: 100px;">
+         
+          <div class="card" style="width: 425px; height: 530px;">
+            <div class="card-header pb-1 p-3 mx-5">
+              <div class="d-flex justify-content-between">
+                <h5 class="mb-2 w-100 test1" style="font-size: 28px;">가정에서 할수있는 천연방제법</h5>
+              </div>
+            </div>
+          <div class="matrix-board col-sm-50 inner-left-xs inner-right-sm animated fadeInUp">
+          
+          
+            <style>
+              .pic{ width:200px; height:200px; background: url(../assets/img/pastinfo/Makgeolli.jpg) no-repeat; }
+              .text{ width:200px; height:200px; background:#000000; opacity:0; padding:10px;}
+              .text p{ padding-top:3%; } 
+              .pic:hover .text { opacity:0.7; text-align:center; color:#ffffff; }
+            </style>
+            <div class="matrix-box">
+            <div class="pic"> 
+              <div class="text"> 
+                  <h3 class="test1">막걸리</h3>
+                  <p class="test1" style="font-size: 20px;">막걸리와 설탕을 2대 1로 섞어 원액 제조 후, 원액(소주잔 1컵)에 2L 물을 섞어주세요!</p>
+              </div> 
+            </div>
+          </div>
+
+         
+          <div class="matrix-box">
+            <div class="pic"> 
+              <div class="text"> 
+                <h3 class="test1">설탕물</h3>
+                <p class="test1" style="font-size: 20px;">우유에 백설탕 2스푼을 섞어 잘 녹인 후 해충이 있는 잎 뒷면에 뿌려주세요!</p>
+              </div> 
+            </div>
+          </div>
+
+         
+          <div class="matrix-box">
+            <div class="pic" style="background-image: url(../assets/img/pastinfo/vegetable.png);"> 
+              <div class="text"> 
+                <h3 class="test1">채소껍질</h3>
+                <p class="test1" style="font-size: 20px;">요리하면서 나오는 채소 껍질 7, 흙을 3의 비율로 섞어 비료로 사용해보세요!</p>
+              </div> 
+            </div>
+          </div>
+
+        
+          <div class="matrix-box">
+            <div class="pic" style="background-image: url(../assets/img/pastinfo/egg.jpg);"> 
+              <div class="text"> 
+                <h3 class="test1">달걀 껍질</h3>
+                <p class="test1" style="font-size: 20px;">달걀 껍데기를 부수어 흙이랑 섞어주세요. 흙을 알칼리성으로 만들어요!</p>
+              </div> 
+            </div>
+          </div>
+          <img src="../assets/img/mark.png"  style="margin-left: 250px;" >
+                    </div>
+                  </div>
+                </div>
+                  </div>
+              </div>
+
+
+
         </div>
         </div>
       </div>
     </div>  
-  </div>
-</div>
+
   );
 }
 
